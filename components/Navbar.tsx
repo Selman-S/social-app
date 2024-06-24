@@ -9,8 +9,9 @@ const Navbar = () => {
       <div>
         <Link href="/" className='font-bold text-xl text-blue-600' >SOCIALBLOG</Link>
       </div> 
+
       {/* CENTER */}
-      <div>
+      <div className='hidden'>
       </div> 
       {/* RİGHT */}
       <div>
