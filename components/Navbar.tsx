@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import MobileMenu from './MobileMenu'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -11,7 +12,14 @@ const Navbar = () => {
       </div> 
 
       {/* CENTER */}
-      <div className='hidden'>
+      <div className='hidden md:flex'>
+        {/* LİNKS */}
+        <div>
+          <Link href="/" className='flex gap-2'>
+          <Image src="/home.png" width={16} height={16}/>
+          <span>Homepage</span>
+          </Link>
+        </div>
       </div> 
       {/* RİGHT */}
       <div>
